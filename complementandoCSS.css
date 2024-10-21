@@ -1,0 +1,312 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+h2{
+    color: white;
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+body{
+    background-image: url(https://img.wallpapic-br.com/i9822-649-723/thumb/eclipse-crescente-pretos-natureza-imagem-de-fundo.jpg); 
+    background-size: cover;
+}
+
+/* classes*/
+.paragraph {
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    padding: 5px;
+}
+
+/* ids */
+#exclusive-title {
+    background-color: rgb(183, 2, 255);
+    color: rgb(255, 0, 255);
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* HEX */
+.simples-hex{
+    color: #55a398;
+}
+
+.simples-hex-2{
+    color: #006494;
+}
+
+.rgb{
+    color: rgb(255, 0, 0);
+}
+
+.hsl{
+    color: rgb(114, 0, 196);
+}
+
+.altura-largura{
+    height:60px ; /*altura */
+    width:100px ; /*largura */
+    background-color: aqua;
+}
+
+.altura-largura2{
+    height: 300px;/*altura*/ 
+    background-color: blueviolet;
+}
+
+/*padding*/
+.sem-padding{
+    background-color: fuchsia;/* cor de fundo*/
+    color: blue;/* cor das letras*/
+}
+
+/*padding*/
+.esse-tem-padding{
+    background-color: blue;/* cor de fundo*/
+    color: gold;/* cor das letras*/
+    padding: 20px;/*padding é o preenchimento*/
+}
+
+.padding-individual{
+    background-color: chocolate;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    padding-top: 20px;/* alterando padding no topo */
+    padding-left: 5px;/*alterando padding na esquerda*/
+    padding-right: 10px;/*alternando padding na direita*/
+    padding-bottom: 40px;/*alternando padding abaixo*/
+}
+
+/* shorthand padding*/
+.shorthand-padding{
+    background-color: blue;
+    padding: 6px 12px 18px 24px;/* aplicando shorthand*/
+}
+
+.shorthand-padding-2{
+    background-color: aqua;
+    padding: 10px 20px;
+}
+
+.sem-border-box{
+    background-color: chartreuse;
+    color: cyan;
+    width: 400px;
+    padding: 50px;
+}
+
+.com-border-box{
+    background-color: skyblue;
+    color: rgb(183, 2, 255);
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.border-esquerda{
+    border-left: 3px solid red;
+    background-color: crimson;
+    padding: 25px;
+}
+
+.borda-inferior{
+    border-bottom: 5px double purple;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.borda-arredondada{
+    border: 4px solid blue;/* 4px é a espessura da borda / solid é caracteristica (sólida) / blue é a cor*/
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    padding: 15px;
+    border-radius: 15px; /* borda arredondada*/
+}
+
+.borda-arredondada-2{
+    background-color: #55a398;
+    color: brown;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/*margem */
+.margem{
+    margin: 10px;
+    background-color: green;
+
+}
+.margem-superior{
+    margin-top: 50px;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+}
+
+.margem-shorthand{
+    background-color: #55a398;
+    margin: 5px 10px 20px; /*px é abaixo / 20px é na esquerda*/
+    color: yellow;
+}
+
+/* alinhamento texto*/
+.alinhando-texto{
+    text-align: right;
+    font-size: 30px;
+    color: purple;
+}
+.container-centro{
+    text-align: center;
+    width: 300px;
+    border: 1px double greenyellow;
+    color: chocolate;
+}
+
+/* text decoration*/
+.underline{
+    text-decoration: underline;
+    color: aqua;
+}
+.line-trough{
+    text-decoration: line-through; /* risco*/
+    color: aqua;
+}
+.upper{
+    text-transform: uppercase;/* esse deixa o texto em caixa alta */
+    color: aqua;
+}
+.lower{
+    text-transform: lowercase; /*texto em caixa baixa 8*/
+    color: aqua;
+}
+.spacing{
+    letter-spacing: 10px;
+    color: red;
+}
+.italico{
+    font-style: italic;
+    color: aqua;
+}
+.oblique{
+    font-style: oblique;
+    color: aqua;
+}
+.thin{
+    font-weight: 100;
+    color: aqua;
+}
+.bold{
+    font-weight: 600;
+    color: aqua;
+}
+.bolder{
+    font-weight: 900;
+    color: aqua;
+}
+
+/* display */
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: gold;
+    margin: 10px;
+    display: inline-block; /* display inçone */
+}
+
+.block{
+    background-color: aqua;
+    display: block; /* display em block */
+    margin: 10px;
+}
+.static{
+    position: static; /* estatico */
+    background-color: green;
+    color: #55a398;
+    width: 100px;
+    height: 100px;
+}
+.relativo{
+    position: relative;
+    background-color: darkorchid;
+    color: aqua;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+/* absoluto com relativo*/
+.container-relativo-absoluto{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+
+
+}
+.absolute1,
+.absolute2{
+    width: 50px;
+    height: 50px;
+    background-color: cyan;
+    position: absolute;
+}
+.absolute1{
+    top: 10px;
+    left: 10px;
+}
+.absolute2{
+    bottom: 10px;
+    right: 10px;
+}
+
+/* fixo */
+.fixo{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    border: 2px solid blue;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+.sticky{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: 2px double green;
+    position: sticky;
+    top: 10px;
+}
+
+/* indice Z*/
+.absolute-3,
+.absolute-4,
+.absolute-5{
+    width: 50px;
+    height: 50px;
+    background-color: #55a398;
+    position: absolute;
+}
+.absolute-3{
+    top: 0;
+    top: 0;
+    z-index: 3;
+}
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-color: #cd1f1f;
+    z-index: 20;
+}
+.absolute-5{
+    top: 40px;
+    left: 40px;
+    background-color: aqua;
+    z-index: 1;
+}
+
+
+
+
+

@@ -1,0 +1,29 @@
+/* Estilizando o corpo da página */
+body{
+    background-color: rgb(0, 0, 0); /*cor de fundo*/
+}
+header {
+    /* Estilizando o cabeçalho*/
+    background-color: rgba(201, 201, 238, 0.205);/* cor de fundo do cabeçalho*/
+    color: rgba(255, 255, 255, 0.315);/* cor das letras */
+    padding: 15p;/* preenchimento do cabeçalho*/
+    text-align: center;/* alinhamento no centro*/
+    font-family: Arial, Helvetica, sans-serif;/* tipo de letra */
+}
+
+article{
+ background-color: rgb(168, 22, 252);
+ font-size: 22px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.paragrafo{
+color:aquamarine;
+font-family: 'Courier New', Courier, monospace;
+text-indent:  300;
+}
+.paragrafo{
+    color:crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: azure;
+    text-decoration: line-through;
+}
